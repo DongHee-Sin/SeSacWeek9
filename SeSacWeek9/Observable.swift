@@ -36,19 +36,24 @@ class Observable<T> {   // 양방향 바인딩
 
 
 
-class User {
-    
-    private var listener: ((String) -> Void)?
-    
-    var value: String {
-        didSet {
-            print("데이터 바뀌었어!")
-            listener?(value)
-        }
-    }
-    
-    
-    init(_ value: String) {
-        self.value = value
-    }
-}
+
+
+
+
+
+//class User {
+//
+//    private var listener: ((String) -> Void)?
+//
+//    var value: String {
+//        didSet {
+//            print("데이터 바뀌었어!")
+//            listener?(value)
+//        }
+//    }
+//
+//
+//    init(_ value: String) {
+//        self.value = value
+//    }
+//}

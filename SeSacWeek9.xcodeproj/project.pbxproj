@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D02169D228C037FC001924FF /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02169D128C037FC001924FF /* Sample.swift */; };
+		D02169D428C04856001924FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02169D328C04856001924FF /* LoginViewController.swift */; };
+		D02169D628C04A06001924FF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02169D528C04A06001924FF /* LoginViewModel.swift */; };
+		D02169DA28C05AFE001924FF /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02169D928C05AFE001924FF /* LottoViewController.swift */; };
+		D02169DC28C05C14001924FF /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02169DB28C05C14001924FF /* LottoViewModel.swift */; };
+		D03AFCD128C1868200A92404 /* GCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03AFCD028C1868200A92404 /* GCDViewController.swift */; };
 		D05C5F8228BD94DB004EE695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C5F8128BD94DB004EE695 /* AppDelegate.swift */; };
 		D05C5F8428BD94DB004EE695 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C5F8328BD94DB004EE695 /* SceneDelegate.swift */; };
 		D05C5F8628BD94DB004EE695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C5F8528BD94DB004EE695 /* ViewController.swift */; };
@@ -23,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D02169D128C037FC001924FF /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		D02169D328C04856001924FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D02169D528C04A06001924FF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D02169D928C05AFE001924FF /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
+		D02169DB28C05C14001924FF /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+		D03AFCD028C1868200A92404 /* GCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDViewController.swift; sourceTree = "<group>"; };
 		D05C5F7E28BD94DB004EE695 /* SeSacWeek9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSacWeek9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05C5F8128BD94DB004EE695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D05C5F8328BD94DB004EE695 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D02169D728C04A09001924FF /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				D02169D328C04856001924FF /* LoginViewController.swift */,
+				D02169D528C04A06001924FF /* LoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		D02169D828C05AEB001924FF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D05C5F8128BD94DB004EE695 /* AppDelegate.swift */,
+				D05C5F8328BD94DB004EE695 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D02169DD28C05C17001924FF /* LottoView */ = {
+			isa = PBXGroup;
+			children = (
+				D02169D928C05AFE001924FF /* LottoViewController.swift */,
+				D02169DB28C05C14001924FF /* LottoViewModel.swift */,
+			);
+			path = LottoView;
+			sourceTree = "<group>";
+		};
 		D05C5F7528BD94DB004EE695 = {
 			isa = PBXGroup;
 			children = (
@@ -73,14 +112,17 @@
 				D05C5FA028BDB75E004EE695 /* URLSession+Extension.swift */,
 				D05C5F9A28BDA71E004EE695 /* Person */,
 				D05C5F9528BD94ED004EE695 /* Lotto */,
-				D05C5F8128BD94DB004EE695 /* AppDelegate.swift */,
-				D05C5F8328BD94DB004EE695 /* SceneDelegate.swift */,
+				D02169D828C05AEB001924FF /* App */,
 				D05C5F8528BD94DB004EE695 /* ViewController.swift */,
+				D02169D728C04A09001924FF /* LoginView */,
+				D02169DD28C05C17001924FF /* LottoView */,
 				D05C5F8728BD94DB004EE695 /* Main.storyboard */,
+				D03AFCD028C1868200A92404 /* GCDViewController.swift */,
 				D05C5F8A28BD94DC004EE695 /* Assets.xcassets */,
 				D05C5F8C28BD94DC004EE695 /* LaunchScreen.storyboard */,
 				D05C5F8F28BD94DC004EE695 /* Info.plist */,
 				D0DCAE3F28BEF8CC0022D68E /* Observable.swift */,
+				D02169D128C037FC001924FF /* Sample.swift */,
 			);
 			path = SeSacWeek9;
 			sourceTree = "<group>";
@@ -175,16 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02169D428C04856001924FF /* LoginViewController.swift in Sources */,
 				D05C5F8628BD94DB004EE695 /* ViewController.swift in Sources */,
 				D0DCAE4228BEFC0D0022D68E /* PersonViewModel.swift in Sources */,
+				D02169DA28C05AFE001924FF /* LottoViewController.swift in Sources */,
 				D05C5F9928BD9BB3004EE695 /* Lotto.swift in Sources */,
+				D02169DC28C05C14001924FF /* LottoViewModel.swift in Sources */,
 				D05C5F8228BD94DB004EE695 /* AppDelegate.swift in Sources */,
 				D05C5F9C28BDA72D004EE695 /* PersonAPIManager.swift in Sources */,
 				D0DCAE4028BEF8CC0022D68E /* Observable.swift in Sources */,
 				D05C5FA128BDB75E004EE695 /* URLSession+Extension.swift in Sources */,
+				D02169D628C04A06001924FF /* LoginViewModel.swift in Sources */,
 				D05C5F9E28BDA887004EE695 /* Person.swift in Sources */,
 				D05C5F8428BD94DB004EE695 /* SceneDelegate.swift in Sources */,
+				D02169D228C037FC001924FF /* Sample.swift in Sources */,
 				D05C5F9728BD94FB004EE695 /* LottoAPIManager.swift in Sources */,
+				D03AFCD128C1868200A92404 /* GCDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
