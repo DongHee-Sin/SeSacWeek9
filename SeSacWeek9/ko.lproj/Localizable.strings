@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  SeSacWeek9
+
+  Created by 신동희 on 2022/09/06.
+  
+*/
+
+// 네비게이션 타이틀
+"navigation_title" = "나의 다이어리";   // 세미콜론 주의!
+
+// 플레이스홀더
+"search_placeholder" = "영화를 검색해보세요";
+"main_age_placeholder" = "나이를 입력해보세요";
+// 취소
+"common_cancel" = "취소";
+
+
+// %@ : 매개변수 (문자)
+"introduce" = "제 닉네임은 %@ 입니다.";
+
+// %lld : 매개변수 (숫자)
+"number_test" = "저는 %lld살 입니다.";
+
+
